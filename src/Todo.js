@@ -29,10 +29,10 @@ function Todo({ task, completed, removeTodo, id, toggleTodo, editTodo }) {
 						{task}
 					</ListItemText>
 					<ListItemSecondaryAction>
-						<IconButton aria-lable='Delete' onClick={() => removeTodo(id)}>
+						<IconButton aria-label='Delete' onClick={() => removeTodo(id)}>
 							<DeleteIcon />
 						</IconButton>
-						<IconButton aria-lable='Edit' onClick={toggle}>
+						<IconButton aria-label='Edit' onClick={toggle}>
 							<EditIcon />
 						</IconButton>
 					</ListItemSecondaryAction>
